@@ -1,0 +1,37 @@
+{
+  "workbench.startupEditor": "none",
+  "php.validate.executablePath": "",
+
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css/"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 20 version"],
+
+  "files.autoSave": "onWindowChange",
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "chatgpt.apiBase": "https://chatgpt.com/codex",
+  "chatgpt.config": {
+    
+
+    "model": "gpt-5-pro",
+    "temperature": 0.1,
+    "reasoning": "high",
+    "approval_mode": "auto",
+    "max_tokens": 4096
+  },
+  "chatgpt.cliExecutable": "",
+
+  "workbench.settings.applyToAllProfiles": ["chatgpt.model"],
+  "git.confirmSync": false
+}
